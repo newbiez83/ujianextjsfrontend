@@ -33,14 +33,6 @@ function isEmptyTextField(choice) {
   return isEmpty;
 }
 
-function isSelectedGrid() {
-  var isSelected = false;
-  if (Ext.getCmp('infoPanelId').getSelectionModel().hasSelection()) {
-    isSelected = true;
-  }
-  return isSelected;
-}
-
 function clearAllText(choice) {
   if (choice == 1) {
     Ext.getCmp('nama').setValue("");
@@ -67,24 +59,6 @@ function clearAllText(choice) {
     setSharedData();
   }
 
-}
-
-Ext.define('SharedData', {
-  singleton: true,
-
-  id: "None",
-  name: "None",
-  age: -1,
-  bio: "None"
-
-});
-
-
-function setSharedData() {
-  SharedData.id = none;
-  SharedData.name = "None";
-  SharedData.age = none;
-  SharedData.bio = "None";
 }
 
 function createNewPerson(nama, alamat, jeniskelamin, tgllahir, notelpon, foto) {
@@ -139,27 +113,13 @@ Ext.define('pegawai.view.main.MainController', {
       clearAllText(2);
       clearAllText(1);
       Ext.Msg.alert('Waiting...', 'Data Berhasil Masuk...');
+
+      this.getView().destroy();
+      
     }
     else {
       Ext.Msg.alert('Pemberitahuan', 'Data Masih Kosong.');
     }
-
-  },
-
-  onDeleteBttnClick: function (button, e, eOpts) {
-
-    console.log("Delete Button Activated");
-    // if(isSelectedGrid())
-    // {
-    deleteExistingPerson(SharedData.id);
-    Ext.Msg.alert('Deleting...', 'The selected person has been deleted!!!');
-    clearAllText(1);
-
-    // }
-    // else {
-    //   Ext.Msg.alert('Non-Selected Person', 'Please select a person.');
-    // }
-
 
   },
 
@@ -168,57 +128,43 @@ Ext.define('pegawai.view.main.MainController', {
   },
 
   onItemEditClick: function (grid, record, item, index, e, eOpts) {
-    console.log(record.data);
+    var form = Ext.create('pegawai.view.main.Edit');
+
+    Ext.getCmp('dataid').setValue(record.data.IDPEGAWAI);
+    Ext.getCmp('datanama').setValue(record.data.NAMA);
+    Ext.getCmp('dataalamat').setValue(record.data.ALAMAT);
+    Ext.getCmp('datajeniskelamin').setValue(record.data.JENISKELAMIN);
+    Ext.getCmp('datatgllahir').setValue(record.data.TGLLAHIR);
+    Ext.getCmp('datanotelpon').setValue(record.data.NOTELPON);
+    Ext.getCmp('datafoto').setValue(record.data.FOTO);
+    form.show();
   },
 
-  onUpdateBttnClick: function (button, e, eOpts) {
-    console.log("Update Button Activated");
-    if (isSelectedGrid()) {
-      if (isEmptyTextField(1)) {
-        var updateName = Ext.getCmp('nameNameId').getValue();
-        var updateAge = Ext.getCmp('nameAgeId').getValue();
-        var updateBio = Ext.getCmp('nameBioId').getValue();
-        updateExistingPerson(SharedData.id, updateName, updateAge, updateBio)
-        Ext.Msg.alert('Up-To-Date', 'You have already updated a person Information.');
-        Ext.getCmp('infoPanelId').getSelectionModel().deselectAll();
-        clearAllText(1);
-      }
-      else {
-        Ext.Msg.alert('Not Filled Informations', 'Please fill all information to update.');
-      }
-    }
-    else {
-      Ext.Msg.alert('Non-Selected Person', 'Please select a person.');
-    }
+  onDelete: function () {
 
+    var id = Ext.getCmp('dataid').getValue();
 
-  },
+    Ext.MessageBox.confirm('Confirm', 'Yakin akan menghapus data?', function (btn) {
+      if (btn == 'yes') {
 
-  onItemSelected: function (sender, record) {
-
-    Ext.getCmp('infoBioTextId').setValue(record.data.IDPEGAWAI);
-
-    SharedData.IDPEGAWAI = record.data.IDPEGAWAI;
-    // SharedData.name=record.data.name;
-    // SharedData.age=record.data.age;
-    // SharedData.bio=record.data.bio;
-
-    //Ext.Msg.confirm('Information of That Person', 'Do you want to change something about this person?','onConfirm',this);
-    Ext.Msg.confirm('Information of That Person', 'Do you want to change something about this person?', function (choice) {
-      if (choice === 'yes') {
-        Ext.getCmp('IDPEGAWAI').setValue(record.data.IDPEGAWAI);
-        // Ext.getCmp('nameAgeId').setValue(record.data.age);
-        // Ext.getCmp('nameBioId').setValue(record.data.bio);
+        deleteExistingPerson(id);
+        Ext.Msg.alert('Waiting...', 'Data Berhasil Dihapus...');      
 
       }
-
     });
 
+    this.getView().destroy();
   },
+
+
 
   // onItemSelected: function (sender, record) {
   //     Ext.Msg.confirm('Confirm', 'Are you sure?', 'onConfirm', this);
   // },
+
+  onCancel: function () {
+    this.getView().destroy();
+  },
 
   onConfirm: function (choice) {
     if (choice === 'yes') {

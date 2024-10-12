@@ -48,20 +48,20 @@ Ext.define('pegawai.view.main.List', {
         { text: 'TGL LAHIR', dataIndex: 'TGLLAHIR', flex: 1 },
         { text: 'NOTELPON', dataIndex: 'NOTELPON', flex: 1 },
         
-            {
-                xtype: 'actioncolumn',
+            // {
+            //     xtype: 'actioncolumn',
         
-                width: 30,
-                sortable: false,
-                menuDisabled: true,
-                items: [{
-                    iconCls: 'x-fa fa-trash',
-                    tooltip: 'Hapus Data',
-                    handler: 'onDeleteBttnClick',
-                    // listeners:{
-                    //     click :"onDeleteBttnClick"
-                    //   }
-                }]}
+            //     width: 30,
+            //     sortable: false,
+            //     menuDisabled: true,
+            //     items: [{
+            //         iconCls: 'x-fa fa-trash',
+            //         tooltip: 'Hapus Data',
+            //         handler: 'onDeleteBttnClick',
+            //         // listeners:{
+            //         //     click :"onDeleteBttnClick"
+            //         //   }
+            //     }]}
     ],
 
     dockedItems: [
