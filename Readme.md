@@ -1,4 +1,10 @@
 # pegawai
+
+SENCHA 6.2.1
+EXT 6.2.0
+Laravel 10
+Postgres SQL
+
 ![screencapture-localhost-1841-2024-10-13-00_36_28](https://github.com/user-attachments/assets/28d19997-5e3c-4305-9893-37000fc2cc9d)
 
 ![screencapture-localhost-1841-2024-10-13-00_36_51](https://github.com/user-attachments/assets/e19e224c-ebb9-4026-93ce-15eae574066a)
