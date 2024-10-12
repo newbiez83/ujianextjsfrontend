@@ -43,29 +43,26 @@ Ext.define('pegawai.view.main.Edit', {
             fieldLabel: 'Alamat',
             id: 'dataalamat',
             value: ''
-        }, {
-            xtype: 'radiofield',
-            name: 'jeniskelamin',
-            value: 'L',
+        }, 
+        {
+            xtype: 'radiogroup',
             fieldLabel: 'Jenis Kelamin',
+            columns: 1,
+            name: 'jeniskelamin',
             id: 'datajeniskelamin',
-            boxLabel: 'Laki-Laki'
-        }, {
-            xtype: 'radiofield',
-            name: 'jeniskelamin2',
-            value: 'P',
-            id: 'jeniskelamin2',
-            fieldLabel: '',
-            labelSeparator: '',
-            hideEmptyLabel: false,
-            boxLabel: 'Perempuan'
-        }, {
+            items: [
+                { boxLabel: 'L', inputValue: 1 },
+                { boxLabel: 'P', inputValue: 2, checked: true },
+                
+            ]
+        },
+        {
             xtype: 'datefield',
             name: 'tgllahir',
             fieldLabel: 'Tanggal Lahir',
             id: 'datatgllahir',
         }, {
-            xtype: 'textfield',
+            xtype: 'numberfield',
             fieldLabel: 'No Telpon',
             id: 'datanotelpon',
             name: 'notelpon',

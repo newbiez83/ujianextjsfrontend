@@ -47,7 +47,7 @@ function clearAllText(choice) {
     // Ext.getCmp('infoBioTextId').setValue("");
     // Ext.getCmp('infoPanelId').getStore().load();
     // Ext.getCmp('infoPanelId').getSelectionModel().deselectAll();
-    setSharedData();
+    // setSharedData();
   }
   else if (choice == 2) {
     Ext.getCmp('nama').setValue("");
@@ -56,7 +56,7 @@ function clearAllText(choice) {
     Ext.getCmp('tgllahir').setValue("");
     Ext.getCmp('notelpon').setValue("");
     Ext.getCmp('foto').setValue("");
-    setSharedData();
+    // setSharedData();
   }
 
 }
@@ -79,7 +79,7 @@ function createNewPerson(nama, alamat, jeniskelamin, tgllahir, notelpon, foto) {
 
 }
 
-function updateExistingPerson(_id, nama, alamat, jeniskelamin, tgllahir, notelpon, foto) {
+function updateExistingPerson(_id, nama, alamat, jeniskelamin, tanggal, notelpon, foto) {
   Ext.Ajax.request({
     url: 'http://localhost:8000/api/editpegawai/' + _id,
     method: 'POST',
@@ -87,7 +87,7 @@ function updateExistingPerson(_id, nama, alamat, jeniskelamin, tgllahir, notelpo
       NAMA: nama,
       ALAMAT: alamat,
       JENISKELAMIN: jeniskelamin,
-      TGLLAHIR: tgllahir,
+      TGLLAHIR: tanggal,
       NOTELPON: notelpon,
       FOTO: foto,
       _method: 'PUT'
@@ -119,7 +119,7 @@ Ext.define('pegawai.view.main.MainController', {
 
 
 
-  onFormTambahSubmit: function (button, e, eOpts) {
+  onFormTambahSubmit: function (record) {
     console.log("Create Button Activated");
     if (isEmptyTextField(2)) {
       var createNama = Ext.getCmp('nama').getValue();
@@ -128,18 +128,24 @@ Ext.define('pegawai.view.main.MainController', {
       var createTgllahir = Ext.getCmp('tgllahir').getValue();
       var createNotelpon = Ext.getCmp('notelpon').getValue();
       var createFoto = Ext.getCmp('foto').getValue();
-      createNewPerson(createNama, createAlamat, createJeniskelamin, createTgllahir, createNotelpon, createFoto);
+      var tanggal = Ext.Date.format(new Date(createTgllahir), "Y-m-d");
+
+      createNewPerson(createNama, createAlamat, createJeniskelamin, tanggal, createNotelpon, createFoto);
       clearAllText(2);
       clearAllText(1);
       Ext.Msg.alert('Waiting...', 'Data Berhasil Masuk...');
-
-      this.getView().destroy();
+      
+      // this.getView().destroy();
+      
+      
 
     }
     else {
       Ext.Msg.alert('Pemberitahuan', 'Data Masih Kosong.');
     }
 
+    Ext.getCmp('dataList').getStore().reload();
+    
   },
 
   openTambah: function () {
@@ -170,9 +176,11 @@ Ext.define('pegawai.view.main.MainController', {
     tgllahir = Ext.getCmp('datatgllahir').getValue();
     notelpon = Ext.getCmp('datanotelpon').getValue();
     foto = Ext.getCmp('datafoto').getValue();
+    var tanggal = Ext.Date.format(new Date(tgllahir), "Y-m-d");
 
-    updateExistingPerson(id, nama, alamat, jeniskelamin, tgllahir, notelpon, foto);
+    updateExistingPerson(id, nama, alamat, jeniskelamin, tanggal, notelpon, foto);
 
+    Ext.getCmp('dataList').getStore().reload();
     this.getView().destroy();
 
   },
@@ -185,7 +193,9 @@ Ext.define('pegawai.view.main.MainController', {
       if (btn == 'yes') {
 
         deleteExistingPerson(id);
-        Ext.Msg.alert('Waiting...', 'Data Berhasil Dihapus...');
+        // Ext.Msg.alert('Waiting...', 'Data Berhasil Dihapus...');
+        Ext.getCmp('dataList').getStore().reload();
+        
 
       }
     });

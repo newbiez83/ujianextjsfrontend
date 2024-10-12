@@ -1,9 +1,11 @@
 /**
  * This view is an example list of people.
  */
+
 Ext.define('pegawai.view.main.List', {
     extend: 'Ext.grid.Panel',
     xtype: 'mainlist',
+    id: 'dataList',
 
     requires: [
         'pegawai.store.Pegawai',
@@ -28,6 +30,7 @@ Ext.define('pegawai.view.main.List', {
         type: 'pegawai'
     },
     
+    
 
     columns: [
         { 
@@ -38,13 +41,19 @@ Ext.define('pegawai.view.main.List', {
         { 
             text: 'NAMA', 
             dataIndex: 'NAMA', 
-            flex: 1 
+            flex: 1,
+            filter: true,
         },
         { text: 'ALAMAT', dataIndex: 'ALAMAT', flex: 1 },
         { text: 'DEPARTEMEN', dataIndex: 'NAMADEPARTEMEN', flex: 1 },
         { text: 'POSISI', dataIndex: 'NAMAPOSISI', flex: 1 },
         { text: 'GAJI', dataIndex: 'GAJINYA', flex: 1 },
-        { text: 'JENIS KELAMIN', dataIndex: 'JENISKELAMIN', flex: 1 },
+        { 
+            text: 'JENIS KELAMIN', 
+            
+            dataIndex: 'JENISKELAMIN', 
+            flex: 1, 
+        },
         { text: 'TGL LAHIR', dataIndex: 'TGLLAHIR', flex: 1 },
         { text: 'NOTELPON', dataIndex: 'NOTELPON', flex: 1 },
         

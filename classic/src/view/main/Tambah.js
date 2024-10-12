@@ -28,29 +28,44 @@ Ext.define('pegawai.view.main.Tambah', {
         fieldLabel: 'Alamat',
         id: 'alamat',
         value: ''
-    }, {
-        xtype: 'radiofield',
-        name: 'radio1',
-        value: 'radiovalue1',
+    }, 
+    {
+        xtype: 'radiogroup',
         fieldLabel: 'Jenis Kelamin',
+        columns: 1,
+        name: 'jeniskelamin',
         id: 'jeniskelamin',
-        boxLabel: 'Laki-Laki'
-    }, {
-        xtype: 'radiofield',
-        name: 'radio1',
-        value: 'radiovalue2',
-        id: 'jeniskelamin2',
-        fieldLabel: '',
-        labelSeparator: '',
-        hideEmptyLabel: false,
-        boxLabel: 'Perempuan'
-    }, {
+        items: [
+            { boxLabel: 'L', inputValue: 1 },
+            { boxLabel: 'P', inputValue: 2, checked: true },
+            
+        ]
+    },
+    // {
+    //     xtype: 'radiofield',
+    //     name: 'jeniskelamin',
+    //     value: 'L',
+    //     fieldLabel: 'Jenis Kelamin',
+    //     id: 'jeniskelamin',
+    //     boxLabel: 'Laki-Laki',
+    //     checked: true
+    // }, {
+    //     xtype: 'radiofield',
+    //     name: 'jeniskelamin2',
+    //     value: 'P',
+    //     id: 'jeniskelamin2',
+    //     fieldLabel: '',
+    //     labelSeparator: '',
+    //     hideEmptyLabel: false,
+    //     boxLabel: 'Perempuan'
+    // }, 
+    {
         xtype: 'datefield',
         name: 'tgllahir',
         fieldLabel: 'Tanggal Lahir',
         id: 'tgllahir',
     }, {
-        xtype: 'textfield',
+        xtype: 'numberfield',
         fieldLabel: 'No Telpon',
         id: 'notelpon',
         name: 'notelpon',
