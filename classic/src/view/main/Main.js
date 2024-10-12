@@ -83,19 +83,19 @@ Ext.define('pegawai.view.main.Main', {
             xtype: 'mainlist'
         }]
     }, {
-        title: 'Users',
+        title: 'Departement',
         iconCls: 'fa-user',
         bind: {
             html: '{loremIpsum}'
         }
     }, {
-        title: 'Groups',
+        title: 'Divisi',
         iconCls: 'fa-users',
         bind: {
             html: '{loremIpsum}'
         }
     }, {
-        title: 'Settings',
+        title: 'Gaji',
         iconCls: 'fa-cog',
         bind: {
             html: '{loremIpsum}'

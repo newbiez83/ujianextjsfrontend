@@ -29,7 +29,7 @@
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2121 */
 .x-tab-inner-default {
     font: bold 11px/13px tahoma, arial, verdana, sans-serif;
-    color: #416da3;
+    color: #6f6f6f;
     max-width: 100%;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2137 */
@@ -43,7 +43,7 @@
     background-position: center center;
     font-size: 16px;
     line-height: 16px;
-    color: #416da3;
+    color: #6f6f6f;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2146 */
 .x-tab-icon-left > .x-tab-icon-el-default,
@@ -61,7 +61,7 @@
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2180 */
 .x-ie8 .x-tab-icon-el-default.x-tab-glyph {
-    color: #90acd0;
+    color: #acacac;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2187 */
 .x-tab-text.x-tab-icon-left > .x-tab-icon-el-default {
@@ -91,8 +91,8 @@
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2218 */
 .x-tab-focus.x-tab-default {
-    border-color: #8db3e3;
-    background-color: #deecfd;
+    border-color: #b5b5b5;
+    background-color: #eaeaea;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2284 */
 .x-tab-focus.x-tab-default .x-tab-button:before {
@@ -103,7 +103,7 @@
     bottom: 0;
     left: 0;
     pointer-events: none;
-    outline: 1px dotted #416da3;
+    outline: 1px dotted #6f6f6f;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2301 */
 .x-tab-focus.x-tab-default.x-tab-closable .x-tab-button:before {
@@ -111,93 +111,93 @@
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2354 */
 .x-tab-over.x-tab-default {
-    border-color: #8db3e3;
-    background-color: #e8f2ff;
+    border-color: #b5b5b5;
+    background-color: #f2eeee;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2454 */
 .x-tab-over.x-tab-default-top,
 .x-tab-over.x-tab-default-left,
 .x-tab-over.x-tab-default-right {
     background-image: none;
-    background-color: #e8f2ff;
-    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #d7e5fd), color-stop(25%, #e0edff), color-stop(45%, #e8f2ff));
-    background-image: -webkit-linear-gradient(top, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
-    background-image: -moz-linear-gradient(top, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
-    background-image: -o-linear-gradient(top, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
-    background-image: -ms-linear-gradient(top, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
-    background-image: linear-gradient(top, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
+    background-color: #f2eeee;
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #fff), color-stop(0%, #f0f0f0));
+    background-image: -webkit-linear-gradient(top, #fff, #f0f0f0);
+    background-image: -moz-linear-gradient(top, #fff, #f0f0f0);
+    background-image: -o-linear-gradient(top, #fff, #f0f0f0);
+    background-image: -ms-linear-gradient(top, #fff, #f0f0f0);
+    background-image: linear-gradient(top, #fff, #f0f0f0);
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2459 */
 .x-tab-over.x-tab-default-bottom {
     background-image: none;
-    background-color: #e8f2ff;
-    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #d7e5fd), color-stop(25%, #e0edff), color-stop(45%, #e8f2ff));
-    background-image: -webkit-linear-gradient(bottom, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
-    background-image: -moz-linear-gradient(bottom, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
-    background-image: -o-linear-gradient(bottom, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
-    background-image: -ms-linear-gradient(bottom, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
-    background-image: linear-gradient(bottom, #d7e5fd, #e0edff 25%, #e8f2ff 45%);
+    background-color: #f2eeee;
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #fff), color-stop(0%, #f0f0f0));
+    background-image: -webkit-linear-gradient(bottom, #fff, #f0f0f0);
+    background-image: -moz-linear-gradient(bottom, #fff, #f0f0f0);
+    background-image: -o-linear-gradient(bottom, #fff, #f0f0f0);
+    background-image: -ms-linear-gradient(bottom, #fff, #f0f0f0);
+    background-image: linear-gradient(bottom, #fff, #f0f0f0);
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2466 */
 .x-tab-focus.x-tab-over.x-tab-default {
-    border-color: #8db3e3;
-    background-color: #e8f2ff;
+    border-color: #b5b5b5;
+    background-color: #f2eeee;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2581 */
 .x-tab.x-tab-active.x-tab-default {
-    border-color: #8db3e3;
-    background-color: #deecfd;
+    border-color: #b5b5b5;
+    background-color: #eaeaea;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2637 */
 .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
-    color: #15498b;
+    color: #333;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2657 */
 .x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
-    color: #15498b;
+    color: #333;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2665 */
 .x-ie8 .x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
-    color: #7a9bc4;
+    color: #8f8f8f;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2679 */
 .x-tab.x-tab-active.x-tab-default-top,
 .x-tab.x-tab-active.x-tab-default-left,
 .x-tab.x-tab-active.x-tab-default-right {
     background-image: none;
-    background-color: #deecfd;
-    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #fff), color-stop(25%, #f5f9fe), color-stop(45%, #deecfd));
-    background-image: -webkit-linear-gradient(top, #fff, #f5f9fe 25%, #deecfd 45%);
-    background-image: -moz-linear-gradient(top, #fff, #f5f9fe 25%, #deecfd 45%);
-    background-image: -o-linear-gradient(top, #fff, #f5f9fe 25%, #deecfd 45%);
-    background-image: -ms-linear-gradient(top, #fff, #f5f9fe 25%, #deecfd 45%);
-    background-image: linear-gradient(top, #fff, #f5f9fe 25%, #deecfd 45%);
+    background-color: #eaeaea;
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #fff), color-stop(0%, #eaeaea));
+    background-image: -webkit-linear-gradient(top, #fff, #eaeaea);
+    background-image: -moz-linear-gradient(top, #fff, #eaeaea);
+    background-image: -o-linear-gradient(top, #fff, #eaeaea);
+    background-image: -ms-linear-gradient(top, #fff, #eaeaea);
+    background-image: linear-gradient(top, #fff, #eaeaea);
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2685 */
 .x-tab.x-tab-active.x-tab-default-bottom {
     background-image: none;
-    background-color: #deecfd;
-    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #fff), color-stop(25%, #f5f9fe), color-stop(45%, #deecfd));
-    background-image: -webkit-linear-gradient(bottom, #fff, #f5f9fe 25%, #deecfd 45%);
-    background-image: -moz-linear-gradient(bottom, #fff, #f5f9fe 25%, #deecfd 45%);
-    background-image: -o-linear-gradient(bottom, #fff, #f5f9fe 25%, #deecfd 45%);
-    background-image: -ms-linear-gradient(bottom, #fff, #f5f9fe 25%, #deecfd 45%);
-    background-image: linear-gradient(bottom, #fff, #f5f9fe 25%, #deecfd 45%);
+    background-color: #eaeaea;
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #fff), color-stop(0%, #eaeaea));
+    background-image: -webkit-linear-gradient(bottom, #fff, #eaeaea);
+    background-image: -moz-linear-gradient(bottom, #fff, #eaeaea);
+    background-image: -o-linear-gradient(bottom, #fff, #eaeaea);
+    background-image: -ms-linear-gradient(bottom, #fff, #eaeaea);
+    background-image: linear-gradient(bottom, #fff, #eaeaea);
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2692 */
 .x-tab-focus.x-tab-active.x-tab-default {
-    border-color: #8db3e3;
-    background-color: #deecfd;
+    border-color: #b5b5b5;
+    background-color: #eaeaea;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2808 */
 .x-tab.x-tab-disabled.x-tab-default {
-    border-color: #bbd2ef;
-    background-color: #e1ecfa;
+    border-color: #dadada;
+    background-color: #eee;
     cursor: default;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2868 */
 .x-tab.x-tab-disabled.x-tab-default .x-tab-inner-default {
-    color: #c3b3b3;
+    color: #b7b7b7;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2892 */
 .x-tab.x-tab-disabled.x-tab-default .x-tab-icon-el-default {
@@ -206,37 +206,37 @@
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2897 */
 .x-tab.x-tab-disabled.x-tab-default .x-tab-icon-el {
-    color: #c3b3b3;
+    color: #b7b7b7;
     opacity: 0.3;
     filter: none;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2912 */
 .x-ie8 .x-tab.x-tab-disabled.x-tab-default .x-tab-icon-el {
-    color: #d8dbe5;
+    color: #dedede;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2925 */
 .x-tab.x-tab-disabled.x-tab-default-top,
 .x-tab.x-tab-disabled.x-tab-default-left,
 .x-tab.x-tab-disabled.x-tab-default-right {
     background-image: none;
-    background-color: #e1ecfa;
-    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #e1ecfa), color-stop(0%, #ecf4fe));
-    background-image: -webkit-linear-gradient(top, #e1ecfa, #ecf4fe);
-    background-image: -moz-linear-gradient(top, #e1ecfa, #ecf4fe);
-    background-image: -o-linear-gradient(top, #e1ecfa, #ecf4fe);
-    background-image: -ms-linear-gradient(top, #e1ecfa, #ecf4fe);
-    background-image: linear-gradient(top, #e1ecfa, #ecf4fe);
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #eee), color-stop(0%, #f4f4f4));
+    background-image: -webkit-linear-gradient(top, #eee, #f4f4f4);
+    background-image: -moz-linear-gradient(top, #eee, #f4f4f4);
+    background-image: -o-linear-gradient(top, #eee, #f4f4f4);
+    background-image: -ms-linear-gradient(top, #eee, #f4f4f4);
+    background-image: linear-gradient(top, #eee, #f4f4f4);
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2931 */
 .x-tab.x-tab-disabled.x-tab-default-bottom {
     background-image: none;
-    background-color: #e1ecfa;
-    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #e1ecfa), color-stop(0%, #ecf4fe));
-    background-image: -webkit-linear-gradient(bottom, #e1ecfa, #ecf4fe);
-    background-image: -moz-linear-gradient(bottom, #e1ecfa, #ecf4fe);
-    background-image: -o-linear-gradient(bottom, #e1ecfa, #ecf4fe);
-    background-image: -ms-linear-gradient(bottom, #e1ecfa, #ecf4fe);
-    background-image: linear-gradient(bottom, #e1ecfa, #ecf4fe);
+    background-color: #eee;
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #eee), color-stop(0%, #f4f4f4));
+    background-image: -webkit-linear-gradient(bottom, #eee, #f4f4f4);
+    background-image: -moz-linear-gradient(bottom, #eee, #f4f4f4);
+    background-image: -o-linear-gradient(bottom, #eee, #f4f4f4);
+    background-image: -ms-linear-gradient(bottom, #eee, #f4f4f4);
+    background-image: linear-gradient(bottom, #eee, #f4f4f4);
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2938 */
 .x-nbr .x-tab-default {
@@ -889,9 +889,9 @@
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Bar.scss:168 */
 .x-tab-bar-default {
-    background-color: #cbdbef;
+    background-color: #d2d2d2;
     border-style: solid;
-    border-color: #99bce8;
+    border-color: #d0d0d0;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Bar.scss:177 */
 .x-tab-bar-default-top {
@@ -984,8 +984,8 @@
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Bar.scss:319 */
 .x-tab-bar-strip-default {
     border-style: solid;
-    border-color: #99bce8;
-    background-color: #deecfd;
+    border-color: #d0d0d0;
+    background-color: #eaeaea;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Bar.scss:326 */
 .x-tab-bar-top > .x-tab-bar-strip-default {
@@ -1058,13 +1058,13 @@
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Bar.scss:411 */
 .x-tab-bar-default-top {
     background-image: none;
-    background-color: #cbdbef;
-    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #dde8f5), color-stop(0%, #cbdbef));
-    background-image: -webkit-linear-gradient(top, #dde8f5, #cbdbef);
-    background-image: -moz-linear-gradient(top, #dde8f5, #cbdbef);
-    background-image: -o-linear-gradient(top, #dde8f5, #cbdbef);
-    background-image: -ms-linear-gradient(top, #dde8f5, #cbdbef);
-    background-image: linear-gradient(top, #dde8f5, #cbdbef);
+    background-color: #d2d2d2;
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #dfdede), color-stop(0%, #d2d2d2));
+    background-image: -webkit-linear-gradient(top, #dfdede, #d2d2d2);
+    background-image: -moz-linear-gradient(top, #dfdede, #d2d2d2);
+    background-image: -o-linear-gradient(top, #dfdede, #d2d2d2);
+    background-image: -ms-linear-gradient(top, #dfdede, #d2d2d2);
+    background-image: linear-gradient(top, #dfdede, #d2d2d2);
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Bar.scss:415 */
 .x-nlg .x-tab-bar-default-top {
@@ -1073,13 +1073,13 @@
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Bar.scss:421 */
 .x-tab-bar-default-bottom {
     background-image: none;
-    background-color: #cbdbef;
-    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #dde8f5), color-stop(0%, #cbdbef));
-    background-image: -webkit-linear-gradient(bottom, #dde8f5, #cbdbef);
-    background-image: -moz-linear-gradient(bottom, #dde8f5, #cbdbef);
-    background-image: -o-linear-gradient(bottom, #dde8f5, #cbdbef);
-    background-image: -ms-linear-gradient(bottom, #dde8f5, #cbdbef);
-    background-image: linear-gradient(bottom, #dde8f5, #cbdbef);
+    background-color: #d2d2d2;
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #dfdede), color-stop(0%, #d2d2d2));
+    background-image: -webkit-linear-gradient(bottom, #dfdede, #d2d2d2);
+    background-image: -moz-linear-gradient(bottom, #dfdede, #d2d2d2);
+    background-image: -o-linear-gradient(bottom, #dfdede, #d2d2d2);
+    background-image: -ms-linear-gradient(bottom, #dfdede, #d2d2d2);
+    background-image: linear-gradient(bottom, #dfdede, #d2d2d2);
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Bar.scss:425 */
 .x-nlg .x-tab-bar-default-bottom {
@@ -1088,13 +1088,13 @@
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Bar.scss:431 */
 .x-tab-bar-default-left {
     background-image: none;
-    background-color: #cbdbef;
-    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #dde8f5), color-stop(0%, #cbdbef));
-    background-image: -webkit-linear-gradient(left, #dde8f5, #cbdbef);
-    background-image: -moz-linear-gradient(left, #dde8f5, #cbdbef);
-    background-image: -o-linear-gradient(left, #dde8f5, #cbdbef);
-    background-image: -ms-linear-gradient(left, #dde8f5, #cbdbef);
-    background-image: linear-gradient(left, #dde8f5, #cbdbef);
+    background-color: #d2d2d2;
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #dfdede), color-stop(0%, #d2d2d2));
+    background-image: -webkit-linear-gradient(left, #dfdede, #d2d2d2);
+    background-image: -moz-linear-gradient(left, #dfdede, #d2d2d2);
+    background-image: -o-linear-gradient(left, #dfdede, #d2d2d2);
+    background-image: -ms-linear-gradient(left, #dfdede, #d2d2d2);
+    background-image: linear-gradient(left, #dfdede, #d2d2d2);
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Bar.scss:435 */
 .x-nlg .x-tab-bar-default-left {
@@ -1103,13 +1103,13 @@
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Bar.scss:441 */
 .x-tab-bar-default-right {
     background-image: none;
-    background-color: #cbdbef;
-    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #dde8f5), color-stop(0%, #cbdbef));
-    background-image: -webkit-linear-gradient(right, #dde8f5, #cbdbef);
-    background-image: -moz-linear-gradient(right, #dde8f5, #cbdbef);
-    background-image: -o-linear-gradient(right, #dde8f5, #cbdbef);
-    background-image: -ms-linear-gradient(right, #dde8f5, #cbdbef);
-    background-image: linear-gradient(right, #dde8f5, #cbdbef);
+    background-color: #d2d2d2;
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #dfdede), color-stop(0%, #d2d2d2));
+    background-image: -webkit-linear-gradient(right, #dfdede, #d2d2d2);
+    background-image: -moz-linear-gradient(right, #dfdede, #d2d2d2);
+    background-image: -o-linear-gradient(right, #dfdede, #d2d2d2);
+    background-image: -ms-linear-gradient(right, #dfdede, #d2d2d2);
+    background-image: linear-gradient(right, #dfdede, #d2d2d2);
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Bar.scss:445 */
 .x-nlg .x-tab-bar-default-right {
@@ -1851,15 +1851,15 @@
 }
 /* D:/ujian/ext/classic/theme-classic/sass/src/layout/container/Accordion.scss:1 */
 .x-accordion-hd {
-    -webkit-box-shadow: inset 0 0 #d9e7f8;
-    -moz-box-shadow: inset 0 0 #d9e7f8;
-    box-shadow: inset 0 0 #d9e7f8;
+    -webkit-box-shadow: inset 0 0 #e5e5e5;
+    -moz-box-shadow: inset 0 0 #e5e5e5;
+    box-shadow: inset 0 0 #e5e5e5;
 }
 /* D:/ujian/ext/classic/theme-classic/sass/src/layout/container/Accordion.scss:4 */
 .x-accordion-hd-sibling-expanded {
-    -webkit-box-shadow: inset 0 1px #f3f7fb;
-    -moz-box-shadow: inset 0 1px #f3f7fb;
-    box-shadow: inset 0 1px #f3f7fb;
+    -webkit-box-shadow: inset 0 1px #ececec;
+    -moz-box-shadow: inset 0 1px #ececec;
+    box-shadow: inset 0 1px #ececec;
 }
 /* D:/ujian/ext/classic/theme-classic/sass/src/resizer/Resizer.scss:2 */
 .x-resizable-handle-east-over,
@@ -4969,7 +4969,7 @@
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1597 */
 .x-tab-navigation {
-    border-color: #8db3e3;
+    border-color: #b5b5b5;
     cursor: pointer;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1656 */
@@ -5193,7 +5193,7 @@
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2218 */
 .x-tab-focus.x-tab-navigation {
-    border-color: #8db3e3;
+    border-color: #b5b5b5;
     background-color: transparent;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2284 */
@@ -5205,7 +5205,7 @@
     bottom: 0;
     left: 0;
     pointer-events: none;
-    outline: 1px dotted #416da3;
+    outline: 1px dotted #6f6f6f;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2301 */
 .x-tab-focus.x-tab-navigation.x-tab-closable .x-tab-button:before {
@@ -5213,7 +5213,7 @@
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2354 */
 .x-tab-over.x-tab-navigation {
-    border-color: #8db3e3;
+    border-color: #b5b5b5;
     background-color: #505050;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2410 */
@@ -5230,12 +5230,12 @@
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2466 */
 .x-tab-focus.x-tab-over.x-tab-navigation {
-    border-color: #8db3e3;
+    border-color: #b5b5b5;
     background-color: #505050;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2581 */
 .x-tab.x-tab-active.x-tab-navigation {
-    border-color: #8db3e3;
+    border-color: #b5b5b5;
     background-color: #303030;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2637 */
@@ -5252,12 +5252,12 @@
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2692 */
 .x-tab-focus.x-tab-active.x-tab-navigation {
-    border-color: #8db3e3;
+    border-color: #b5b5b5;
     background-color: #303030;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2808 */
 .x-tab.x-tab-disabled.x-tab-navigation {
-    border-color: #bbd2ef;
+    border-color: #dadada;
     background-color: transparent;
     cursor: default;
 }
@@ -5925,7 +5925,7 @@
 .x-tab-bar-navigation {
     background-color: #404040;
     border-style: solid;
-    border-color: #99bce8;
+    border-color: #d0d0d0;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/tab/Bar.scss:177 */
 .x-tab-bar-navigation-top {
@@ -6221,13 +6221,13 @@
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/panel/Panel.scss:276 */
 .x-panel-navigation {
-    border-color: #99bce8;
+    border-color: #d0d0d0;
     padding: 0;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/panel/Panel.scss:282 */
 .x-panel-header-navigation {
     font-size: 20px;
-    border: 1px solid #99bce8;
+    border: 1px solid #d0d0d0;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/panel/Panel.scss:313 */
 .x-panel-header-navigation-horizontal {
@@ -6315,7 +6315,7 @@
 /* D:/ujian/ext/classic/theme-neutral/sass/src/panel/Panel.scss:512 */
 .x-panel-body-navigation {
     background: #fff;
-    border-color: #99bce8;
+    border-color: #d0d0d0;
     color: #000;
     font-size: 12px;
     font-weight: normal;
@@ -6326,35 +6326,35 @@
 /* D:/ujian/ext/classic/theme-neutral/sass/src/panel/Panel.scss:676 */
 .x-panel-header-navigation {
     background-image: none;
-    background-color: #c0d4ed;
-    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #cfdef0), color-stop(45%, #c2d5ed), color-stop(46%, #a1bee5), color-stop(50%, #a1bee5), color-stop(51%, #aec6e7), color-stop(0%, #c0d4ed));
-    background-image: -webkit-linear-gradient(top, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
-    background-image: -moz-linear-gradient(top, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
-    background-image: -o-linear-gradient(top, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
-    background-image: -ms-linear-gradient(top, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
-    background-image: linear-gradient(top, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
+    background-color: #ccc;
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #f0f0f0), color-stop(0%, #d7d7d7));
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #d7d7d7);
+    background-image: -moz-linear-gradient(top, #f0f0f0, #d7d7d7);
+    background-image: -o-linear-gradient(top, #f0f0f0, #d7d7d7);
+    background-image: -ms-linear-gradient(top, #f0f0f0, #d7d7d7);
+    background-image: linear-gradient(top, #f0f0f0, #d7d7d7);
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/panel/Panel.scss:680 */
 .x-panel-header-navigation-vertical {
     background-image: none;
-    background-color: #c0d4ed;
-    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #cfdef0), color-stop(45%, #c2d5ed), color-stop(46%, #a1bee5), color-stop(50%, #a1bee5), color-stop(51%, #aec6e7), color-stop(0%, #c0d4ed));
-    background-image: -webkit-linear-gradient(right, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
-    background-image: -moz-linear-gradient(right, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
-    background-image: -o-linear-gradient(right, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
-    background-image: -ms-linear-gradient(right, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
-    background-image: linear-gradient(right, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
+    background-color: #ccc;
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #f0f0f0), color-stop(0%, #d7d7d7));
+    background-image: -webkit-linear-gradient(right, #f0f0f0, #d7d7d7);
+    background-image: -moz-linear-gradient(right, #f0f0f0, #d7d7d7);
+    background-image: -o-linear-gradient(right, #f0f0f0, #d7d7d7);
+    background-image: -ms-linear-gradient(right, #f0f0f0, #d7d7d7);
+    background-image: linear-gradient(right, #f0f0f0, #d7d7d7);
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/panel/Panel.scss:685 */
 .x-rtl.x-panel-header-navigation-vertical {
     background-image: none;
-    background-color: #c0d4ed;
-    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #cfdef0), color-stop(45%, #c2d5ed), color-stop(46%, #a1bee5), color-stop(50%, #a1bee5), color-stop(51%, #aec6e7), color-stop(0%, #c0d4ed));
-    background-image: -webkit-linear-gradient(left, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
-    background-image: -moz-linear-gradient(left, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
-    background-image: -o-linear-gradient(left, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
-    background-image: -ms-linear-gradient(left, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
-    background-image: linear-gradient(left, #cfdef0, #c2d5ed 45%, #a1bee5 46%, #a1bee5 50%, #aec6e7 51%, #c0d4ed);
+    background-color: #ccc;
+    background-image: -webkit-gradient(linear, top, bottom, color-stop(0%, #f0f0f0), color-stop(0%, #d7d7d7));
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #d7d7d7);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #d7d7d7);
+    background-image: -o-linear-gradient(left, #f0f0f0, #d7d7d7);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #d7d7d7);
+    background-image: linear-gradient(left, #f0f0f0, #d7d7d7);
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/panel/Panel.scss:698 */
 .x-nlg .x-panel-header-navigation-top {
@@ -6422,27 +6422,27 @@
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/panel/Panel.scss:767 */
 .x-panel-header-navigation-top {
-    -webkit-box-shadow: #f3f7fb 0 1px 0px 0 inset;
-    -moz-box-shadow: #f3f7fb 0 1px 0px 0 inset;
-    box-shadow: #f3f7fb 0 1px 0px 0 inset;
+    -webkit-box-shadow: #ececec 0 1px 0px 0 inset;
+    -moz-box-shadow: #ececec 0 1px 0px 0 inset;
+    box-shadow: #ececec 0 1px 0px 0 inset;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/panel/Panel.scss:771 */
 .x-panel-header-navigation-right {
-    -webkit-box-shadow: #f3f7fb -1px 0 0px 0 inset;
-    -moz-box-shadow: #f3f7fb -1px 0 0px 0 inset;
-    box-shadow: #f3f7fb -1px 0 0px 0 inset;
+    -webkit-box-shadow: #ececec -1px 0 0px 0 inset;
+    -moz-box-shadow: #ececec -1px 0 0px 0 inset;
+    box-shadow: #ececec -1px 0 0px 0 inset;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/panel/Panel.scss:775 */
 .x-panel-header-navigation-bottom {
-    -webkit-box-shadow: #f3f7fb 0 -1px 0px 0 inset;
-    -moz-box-shadow: #f3f7fb 0 -1px 0px 0 inset;
-    box-shadow: #f3f7fb 0 -1px 0px 0 inset;
+    -webkit-box-shadow: #ececec 0 -1px 0px 0 inset;
+    -moz-box-shadow: #ececec 0 -1px 0px 0 inset;
+    box-shadow: #ececec 0 -1px 0px 0 inset;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/panel/Panel.scss:779 */
 .x-panel-header-navigation-left {
-    -webkit-box-shadow: #f3f7fb 1px 0 0px 0 inset;
-    -moz-box-shadow: #f3f7fb 1px 0 0px 0 inset;
-    box-shadow: #f3f7fb 1px 0 0px 0 inset;
+    -webkit-box-shadow: #ececec 1px 0 0px 0 inset;
+    -moz-box-shadow: #ececec 1px 0 0px 0 inset;
+    box-shadow: #ececec 1px 0 0px 0 inset;
 }
 /* D:/ujian/ext/classic/theme-neutral/sass/src/panel/Panel.scss:786 */
 .x-panel-header-navigation-horizontal .x-tool-after-title {

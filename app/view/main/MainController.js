@@ -79,6 +79,25 @@ function createNewPerson(nama, alamat, jeniskelamin, tgllahir, notelpon, foto) {
 
 }
 
+function updateExistingPerson(_id, nama, alamat, jeniskelamin, tgllahir, notelpon, foto) {
+  Ext.Ajax.request({
+    url: 'http://localhost:8000/api/editpegawai/' + _id,
+    method: 'POST',
+    params: {
+      NAMA: nama,
+      ALAMAT: alamat,
+      JENISKELAMIN: jeniskelamin,
+      TGLLAHIR: tgllahir,
+      NOTELPON: notelpon,
+      FOTO: foto,
+      _method: 'PUT'
+
+    },
+    success: false,
+    failure: function () { console.log('failure'); }
+  });
+}
+
 function deleteExistingPerson(_id) {
   Ext.Ajax.request({
     url: 'http://localhost:8000/api/hapuspegawai/' + _id,
@@ -115,7 +134,7 @@ Ext.define('pegawai.view.main.MainController', {
       Ext.Msg.alert('Waiting...', 'Data Berhasil Masuk...');
 
       this.getView().destroy();
-      
+
     }
     else {
       Ext.Msg.alert('Pemberitahuan', 'Data Masih Kosong.');
@@ -140,6 +159,24 @@ Ext.define('pegawai.view.main.MainController', {
     form.show();
   },
 
+  onUpdate: function (record) {
+
+    var id, store, record, nama, alamat, jeniskelamin, tgllahir, notelpon, foto;
+
+    id = Ext.getCmp('dataid').getValue();
+    nama = Ext.getCmp('datanama').getValue();
+    alamat = Ext.getCmp('dataalamat').getValue();
+    jeniskelamin = Ext.getCmp('datajeniskelamin').getValue();
+    tgllahir = Ext.getCmp('datatgllahir').getValue();
+    notelpon = Ext.getCmp('datanotelpon').getValue();
+    foto = Ext.getCmp('datafoto').getValue();
+
+    updateExistingPerson(id, nama, alamat, jeniskelamin, tgllahir, notelpon, foto);
+
+    this.getView().destroy();
+
+  },
+
   onDelete: function () {
 
     var id = Ext.getCmp('dataid').getValue();
@@ -148,7 +185,7 @@ Ext.define('pegawai.view.main.MainController', {
       if (btn == 'yes') {
 
         deleteExistingPerson(id);
-        Ext.Msg.alert('Waiting...', 'Data Berhasil Dihapus...');      
+        Ext.Msg.alert('Waiting...', 'Data Berhasil Dihapus...');
 
       }
     });

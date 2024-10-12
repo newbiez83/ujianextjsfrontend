@@ -1,3 +1,3 @@
-# theme-classic/resources
+# theme-gray/resources
 
 This folder contains static resources (typically an `"images"` folder as well).
