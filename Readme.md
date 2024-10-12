@@ -1,4 +1,16 @@
 # pegawai
+![screencapture-localhost-1841-2024-10-13-00_36_28](https://github.com/user-attachments/assets/28d19997-5e3c-4305-9893-37000fc2cc9d)
+
+![screencapture-localhost-1841-2024-10-13-00_36_51](https://github.com/user-attachments/assets/e19e224c-ebb9-4026-93ce-15eae574066a)
+
+![screencapture-localhost-1841-2024-10-13-00_37_11](https://github.com/user-attachments/assets/0277f931-7324-4a34-bafe-ea3680168d5a)
+
+![screencapture-localhost-1841-2024-10-13-00_37_31](https://github.com/user-attachments/assets/880ce5da-c1ad-4bcf-8d57-2e470bfff061)
+
+![api](https://github.com/user-attachments/assets/cdf35ddc-7cdf-4303-89d2-e7e18835ae74)
+
+![api2](https://github.com/user-attachments/assets/6f9fdf84-ceb0-433b-9178-155ba1e9110f)
+
 
 This folder is primarily a container for the top-level pieces of the application.
 While you can remove some files and folders that this application does not use,
