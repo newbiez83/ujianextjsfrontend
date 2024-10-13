@@ -16,7 +16,7 @@ Ext.define('pegawai.view.main.List', {
         'Ext.view.Table',
         'Ext.form.Panel',
         'Ext.form.field.TextArea',
-        'Ext.button.Button'
+        'Ext.button.Button',
     ],
 
     title: 'List Data Pegawai',
@@ -30,7 +30,7 @@ Ext.define('pegawai.view.main.List', {
         type: 'pegawai'
     },
     
-    
+    plugins: 'gridfilters',
 
     columns: [
         { 
@@ -43,6 +43,10 @@ Ext.define('pegawai.view.main.List', {
             dataIndex: 'NAMA', 
             flex: 1,
             filter: true,
+            // filter: {
+            //     type: 'string',
+            //     value: 5
+            // }
         },
         { text: 'ALAMAT', dataIndex: 'ALAMAT', flex: 1 },
         { text: 'DEPARTEMEN', dataIndex: 'NAMADEPARTEMEN', flex: 1 },
